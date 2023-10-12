@@ -1,0 +1,18 @@
+{
+    "name": "climatcoin",
+    "version": "1.0.0",
+    "description": "A platform to tokenize and trade carbon credits",
+    "main": "server/index.js",
+    "scripts": {
+      "start": "node server/index.js"
+    },
+    "author": "Me",
+   
+    "dependencies": {
+      "express": "^4.17.1",
+      "@solana/web3.js": "^1.30.2",
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5"
+    }
+  }
+  
